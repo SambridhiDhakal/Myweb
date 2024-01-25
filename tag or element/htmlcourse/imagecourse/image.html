@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Image</h1>
+        <hr>
+        <img src="./images/rainbow.jpeg" alt="Image not found" title="rainbow" width="300px" height="350px">
+        <img src="./images/space.jpeg" alt="Image not found" title="space" width="300px" height="350px">
+        <img src="./images/moon.jpeg" alt="Image not found" title="moon" width="300px" height="350px">
+    </blockquote>
+        <picture>
+            <source srcset="./images/space.jpeg" media="(min-width: 800px)">
+            <img src="./images/rainbow.jpeg" alt="rainbow" style="width: auto;">
+        </picture>
+</body>
+</html>

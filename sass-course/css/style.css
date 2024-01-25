@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  height: 400px;
+  background-color: navy;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
+.container .demo {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background: pink;
+  display: flex;
+  align-items: center;
+}
+.container .demo .box {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: darkorchid;
+}/*# sourceMappingURL=style.css.map */

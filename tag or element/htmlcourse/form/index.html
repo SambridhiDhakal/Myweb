@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Student Form </h1>
+        <hr>
+        <form>
+            <label for="Name">Full name::</label><br>
+                <input type="text" id="Name" required placeholder="Enter your name"><br><br>
+            <label for="Subject">Subject::</label><br>
+                <input type="text" id="Subject" placeholder="Subject"><br><br>
+            <label for="dob">Date of Birth::</label><br>
+                <input type="date" id="dob"><br><br>
+            <label for="Address">Address::</label><br>
+                <input type="text" id="Address" required placeholder="Enter your Address"><br><br>
+            <label for="Email">Email::</label><br>
+                <input type="Email" id="Email" required placeholder="Email-id"><br><br>
+            <label for="Phone">Phone Number::</label><br>
+                <input type="number" id="Phone" required placeholder="Enter your phone no."><br><br>
+            <label>Gender::</label><br>
+
+                <label><input type="radio" name="gender">Male</label>
+                <label><input type="radio" name="gender">Female</label>
+                <label><input type="radio" name="gender">Others</label>
+                <br><br>
+
+            <label>Choose Your Course</label><br>
+                <label><input type="checkbox">Html</label>
+                <label><input type="checkbox">CSS</label>
+                <label><input type="checkbox">JavaScript</label>
+                <br><br>
+
+            <label for="country">Country</label>
+                <select id="country">
+                    <option readonly>---Select your country---</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                </select>
+                <br><br>
+            
+            <label for="province">Province</label>
+                <select id="province">
+                    <option readonly>--Select Your province number--</option>   
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br><br>
+            
+            <label for="Message">Message::</label><br>
+                <textarea cols="30" rows="7" id="Message"></textarea>
+            <br><br><br>
+            <button type="submit">Click here to submit</button>
+            <button type="reset">Click here to reset</button>
+        </form>
+    </blockquote>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1{
+    width: 98%;
+    height: 45%;
+    background-color: blue;
+}
+
+.container p{
+    color: white;
+}
+
+.box1 p{
+    animation: animate 4s infinite ease-in;
+}
+
+.box2{
+    width: 98%;
+    height: 45%;
+    background-color: rgb(97, 97, 197);
+} 
+
+.box2 p{
+    animation: animate 4s infinite ease-in reverse;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(50%);
+    }
+}
+
+.container2{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-left{
+    width: 50%;
+    height: 30%;
+    background: yellow;
+    animation: flow 4s ease-in infinite;
+}
+
+
+ .right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.box-right{
+    width: 50%;
+    height: 30%;
+    background: rgb(84, 84, 6);
+    animation: flow 4s ease-in infinite reverse;
+}
+
+@keyframes flow  {
+    0%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(200%);
+    }
+}
+
+

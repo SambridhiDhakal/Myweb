@@ -1,0 +1,43 @@
+.container{
+    width: 90%;
+    height: 400px;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    background-color: blue;
+    width: 49%;
+    height: 99%;
+    margin: auto;
+}
+
+.right{
+    background-color: blueviolet;
+    width: 49%;
+    height: 99%;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: column;    
+    }
+
+    .left{
+        width: 99%;
+        height: 49%;
+        background-color: aqua;
+        margin: auto;
+    }
+
+    .right{
+        width: 99%;
+        height: 49%;
+        background-color: aquamarine;
+        margin: auto;
+    }
+    
+}

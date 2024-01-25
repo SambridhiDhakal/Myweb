@@ -1,0 +1,35 @@
+@import "variable";
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    width: $container-width;
+    height: $container-height;
+    background-color: $primary_color;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+
+    .demo{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        background: $secondary_color;
+        display: flex;
+        align-items: center;
+
+        .box{
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            background-color: darkorchid;
+            }
+    }
+}

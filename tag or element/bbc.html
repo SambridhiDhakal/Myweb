@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 940px;
+            height: 3300px;
+            background-color: rgb(195, 220, 232);
+            margin: auto;
+        }
+
+        .header{
+            width: 940px;
+            height: 60px;
+            background-color: black;
+            position: relative;
+        }
+
+
+
+        .smbox1{
+            width: 20px;
+            height: 30px;
+            background-color: white;
+            margin-left: 50px;
+            position: absolute;
+            top: 15px;
+            float: left;
+        }
+
+        .smbox2{
+            width: 20px;
+            height: 30px;
+            background-color: white;
+            margin-left:75px;
+            position: absolute;
+            top: 15px;
+            float: left;
+        }
+
+        .smbox3{
+            width: 20px;
+            height: 30px;
+            background-color: white;
+            margin-left: 100px;
+            position: absolute;
+            top: 15px;
+            float: left;
+        }
+
+        .bgbox1{
+            width: 165px;
+            height: 40px;
+            margin-right: 50px;
+            position: absolute;
+            top: 10px;
+            right: 20%;
+            background-color: #1E1E1E;
+        }
+
+
+
+
+        .pt2box{
+            width: 940px;
+            height: 255px;
+            background-color: #D9D9D9;
+            position: relative;
+        }
+        
+        .pt2box1{
+            width: 715px;
+            height: 220px;
+            background-color: #AE5F5F;
+            position: absolute;
+            top: 20px;
+            right: 100px;
+        }
+
+
+
+
+        .pt3{
+            width: 940px;
+            height: 1210px;
+            background-color: rgb(195, 220, 232);
+        }
+
+        .pt3box1{
+            width: 400px;
+            height: 270px;
+            background-color: #565AB3;
+            margin-top: 20px;
+            margin-left: 15px;
+            float: left;
+        }
+
+        .pt3box2{
+            width: 250px;
+            height: 132px;
+            background-color: #32738F;
+            margin-top: 20px;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .pt3box3{
+            width: 250px;
+            height: 132px;
+            background-color: #32738F;
+            margin-top: 20px;
+            margin-left: 8px;
+            float: left;
+        }
+
+        .pt3box4{
+            width: 250px;
+            height: 132px;
+            background-color: #32738F;
+            margin-top: 6px;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .pt3box5{
+            width: 250px;
+            height: 132px;
+            background-color: #32738F;
+            margin-top: 6px;
+            margin-left: 8px;
+            float: left;
+        }
+
+        .pt3box6{
+            width: 218px;
+            height: 127px;
+            background-color: #793939;
+            margin-top: 20px;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .pt3box7{
+            width: 218px;
+            height: 127px;
+            background-color: #694B4B;
+            margin-top: 20px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box8{
+            width: 218px;
+            height: 127px;
+            background-color: #717171;
+            margin-top: 20px;
+            margin-left: 6px;
+            float: left;
+        }
+       
+        .pt3big{
+            width: 226px;
+            height: 564px;
+            background-color: #c5c3c3;
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .pt3big1{
+            width: 201px;
+            height: 206px;
+            background-color: #3F2323;
+            position: absolute;
+            top: 20px;
+            right: 13px;
+        }
+
+        .pt3box9{
+            width: 218px;
+            height: 127px;
+            background-color: #846565;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box10{
+            width: 218px;
+            height: 127px;
+            background-color: #6D4949;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box11{
+            width: 218px;
+            height: 127px;
+            background-color: #A76D6D;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box12{
+            width: 218px;
+            height: 127px;
+            background-color: #738465;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box13{
+            width: 218px;
+            height: 127px;
+            background-color: #CD2525;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+        .pt3box14{
+            width: 218px;
+            height: 127px;
+            background-color: #6D5BD9;
+            margin-top: 150px;
+            margin-left: 6px;
+            float: left;
+        }
+
+
+
+
+        .pt4{
+            width: 940px;
+            height: 355px;
+            background-color: #344C32;
+            position: relative;
+            
+        }
+
+        .pt4box1{
+            width: 282px;
+            height: 250px;
+            background-color: #020C67;
+            position: absolute;
+            top: 65px;
+            left: 25px;
+        }
+
+        .pt4box2{
+            width: 282px;
+            height: 250px;
+            background-color: #580A55;
+            position: absolute;
+            top: 65px;
+            left: 328px;
+            float: left;
+        }
+
+        .pt4box3{
+            width: 282px;
+            height: 250px;
+            background-color: #540808;
+            position: absolute;
+            top: 65px;
+            right: 25px;
+            float: left;
+        }
+
+
+
+
+
+        .pt5{
+            width: 940px;
+            height: 380px;
+            background-color: #C3DCE8;
+            position: relative;
+        }
+
+        .pt5box1{
+            width: 210px;
+            height: 144px;
+            background-color: #3F23E9;
+            position: absolute;
+            top: 90px;
+            left: 30px;
+        }
+
+        .pt5box2{
+            width: 210px;
+            height: 144px;
+            background-color: #3F23E9;
+            position: absolute;
+            top: 90px;
+            left: 253px;
+        }
+
+        .pt5box3{
+            width: 210px;
+            height: 144px;
+            background-color: #3F23E9;
+            position: absolute;
+            top: 90px;
+            left: 476px;
+        }
+
+        .pt5box4{
+            width: 210px;
+            height: 144px;
+            background-color: #3F23E9;
+            position: absolute;
+            top: 90px;
+            right: 30px;
+        }
+
+
+
+
+
+        .pt6{
+            width: 940px;
+            height: 1000px;
+            background-color: #D9D9D9;
+            position: relative;
+        }
+
+        .pt6box1{
+            width: 443px;
+            height: 311px;
+            background-color: #A01818;
+            position: absolute;
+            top: 67px;
+            left: 70px;
+            float: left;
+        }
+
+        .pt6box2{
+            width: 316px;
+            height: 510px;
+            background-color: #230D0D;
+            float: right;
+            position: absolute;
+            right: 70px;
+            top: 67px;
+        }
+
+        .pt6box2sm{
+            background-color: #FA0E0E;
+            width: 316px;
+            height: 40px;
+
+        }
+
+        .pt6box3{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 70px;
+            top: 416px;
+        }
+
+        .pt6box3sm{
+            width: 135px;
+            height: 110px;
+            background-color: #3C959B;
+        }
+
+        .pt6box4{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 224px;
+            top: 416px;
+        }
+
+        .pt6box4sm{
+            width: 135px;
+            height: 110px;
+            background-color: #3C469B;
+        }
+
+        .pt6box5{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 378px;
+            top: 416px;
+        }
+
+        .pt6box5sm{
+            width: 135px;
+            height: 110px;
+            background-color: #9B3C86;
+        }
+        
+        .pt6box6{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 70px;
+            top: 683px;
+        }
+
+        .pt6box6sm{
+            width: 135px;
+            height: 110px;
+            background-color: #999FD9;
+        }
+
+        .pt6box7{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 224px;
+            top: 683px;
+        }
+
+        .pt6box7sm{
+            width: 135px;
+            height: 110px;
+            background-color: #AA1A56;
+        }
+        
+        .pt6box8{
+            width: 135px;
+            height: 240px;
+            background-color: white;
+            position: absolute;
+            left: 378px;
+            top: 683px;
+        }
+
+        .pt6box8sm{
+            width: 135px;
+            height: 110px;
+            background-color: #2C35FD;
+        }
+
+        .pt6box9{
+            width: 316px;
+            height: 335px;
+            background-color:#46166C;
+            position: relative;
+            top:588px;
+            left:554px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="smbox1"></div>
+            <div class="smbox2"></div>
+            <div class="smbox3"></div>
+            <div class="bgbox1"></div>
+        </div>
+
+        <div class="pt2box">
+            <div class="pt2box1"></div>
+        </div>
+
+
+
+        <div class="pt3">
+            <div class="pt3box1"></div>
+            <div class="pt3box2"></div>
+            <div class="pt3box3"></div>
+            <div class="pt3box4"></div>
+            <div class="pt3box5"></div>
+            <div class="pt3box6"></div>
+            <div class="pt3box7"></div>
+            <div class="pt3box8"></div>
+            <div class="pt3big">
+                <div class="pt3big1"></div>
+            </div>
+            <div class="pt3box9"></div>
+            <div class="pt3box10"></div>
+            <div class="pt3box11"></div>
+            <div class="pt3box12"></div>
+            <div class="pt3box13"></div>
+            <div class="pt3box14"></div>
+        </div>
+
+
+
+        <div class="pt4">
+            <div class="pt4box1"></div>
+            <div class="pt4box2"></div>
+            <div class="pt4box3"></div>
+        </div>
+
+
+
+        <div class="pt5">
+            <div class="pt5box1"></div>
+            <div class="pt5box2"></div>
+            <div class="pt5box3"></div>
+            <div class="pt5box4"></div>
+        </div>
+
+
+
+        <div class="pt6">
+            <div class="pt6box1"></div>
+            <div class="pt6box2">
+                <div class="pt6box2sm"></div>
+            </div>
+            <div class="pt6box3">
+                <div class="pt6box3sm"></div>
+            </div>
+            <div class="pt6box4">
+                <div class="pt6box4sm"></div>
+            </div>
+            <div class="pt6box5">
+                <div class="pt6box5sm"></div>
+            </div>
+            <div class="pt6box6">
+                <div class="pt6box6sm"></div>
+            </div>
+            <div class="pt6box7">
+                <div class="pt6box7sm"></div>
+            </div>
+            <div class="pt6box8">
+                <div class="pt6box8sm"></div>
+            </div>
+            <div class="pt6box9"></div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.container{
+    width: 80%;
+    height: 500px;
+     background: url(../image/a.jpeg); 
+    /* background:linear-gradient(to right,purple, blue,aliceblue); */
+    /* background-blend-mode:multiply; */
+    background-repeat:repeat-x;
+    background-size:contain;
+    margin: auto;
+
+}

@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    width: 90%;
+    background: red;
+    margin: auto;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+}
+
+.menu ul li{
+    min-width: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    background: green;
+    min-width: 97%;
+    left: 0;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul ul li{
+    text-align: left;
+}
+
+.menu ul ul li a{
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,purple,rgb(241, 91, 116));
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-container{
+    width: 30%;
+    height: 550px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.title h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.login-btn{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 0 38px 0;
+}
+
+.login{
+    width: 50%;
+    background:linear-gradient(to right,purple,rgb(241, 91, 116));
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.signup{
+    width: 50%;
+    background:white;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.input-form{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-form input{
+    height: 38%;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 5px;
+    text-indent: 20px;
+}
+
+.input-form input::placeholder{
+    font-size: 17px;
+}
+
+.forgot{
+    margin-top: 10px;
+}
+
+.forgot a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(230, 112, 131);
+    font-size: 17px;
+}
+
+.login-click button{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background:linear-gradient(to right,purple,rgb(241, 91, 116));
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    color: white;
+}
+
+.member-signup{
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.member-signup a{
+    text-decoration: none;
+    color: rgb(230, 112, 131);
+}
+
+
+
